@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Rock Paper Scissors</h1>
+    <div class="scoreboard">
+      <div>
+        <span class="score-label">You</span>
+        <span id="player-score" class="score">0</span>
+      </div>
+      <div>
+        <span class="score-label">Computer</span>
+        <span id="computer-score" class="score">0</span>
+      </div>
+    </div>
+    <div class="choices">
+      <button class="choice" data-choice="rock">
+        <span role="img" aria-label="Rock">✊</span>
+        <span class="choice-label">Rock</span>
+      </button>
+      <button class="choice" data-choice="paper">
+        <span role="img" aria-label="Paper">✋</span>
+        <span class="choice-label">Paper</span>
+      </button>
+      <button class="choice" data-choice="scissors">
+        <span role="img" aria-label="Scissors">✌️</span>
+        <span class="choice-label">Scissors</span>
+      </button>
+    </div>
+    <div class="results">
+      <div id="player-choice" class="result-icon"></div>
+      <div id="vs">VS</div>
+      <div id="computer-choice" class="result-icon"></div>
+    </div>
+    <div id="message" class="message"></div>
+    <button id="reset-btn" class="reset-btn">Reset Game</button>
+  </div>
+  <footer>
+    <p>Made with ❤️ for GitHub Pages</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
