@@ -1,4 +1,4 @@
-# 🪨✋✌️ Rock Paper Scissors Game
+# Rock Paper Scissors Game
 
 A modern, interactive, and beautiful Rock Paper Scissors game where you play against the computer. Built for the web and ready to be hosted on GitHub Pages.
 
